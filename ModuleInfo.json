@@ -2,6 +2,7 @@
   "Name": "Kamella in SMG2",
   "Author": "Super Hackio",
   "Description": "She's here for her revenge...",
+  "SupportedGames": [ "SB4" ],
 
   "ModuleData": [
     {
