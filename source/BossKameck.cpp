@@ -448,15 +448,13 @@ void BossKameck::startDemo() {
 	_C8.zero();
 	MR::zeroVelocity(this);
 	MR::calcGravity(this);
-	mJointCtrl->endDynamicCtrl("Suso1", 0);
-	mJointCtrl->endDynamicCtrl("Cap1", 0);
+	mJointCtrl->endDynamicCtrl(0);
 }
 void BossKameck::endDemo() {
 	_C8.zero();
 	MR::zeroVelocity(this);
 	MR::calcGravity(this);
-	mJointCtrl->startDynamicCtrl("Suso1", -1);
-	mJointCtrl->startDynamicCtrl("Cap1", -1);
+	mJointCtrl->startDynamicCtrl(-1);
 }
 
 
